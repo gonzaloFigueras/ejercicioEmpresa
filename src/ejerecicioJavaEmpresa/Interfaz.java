@@ -7,8 +7,6 @@ public interface Interfaz {
     
     public void listar();
     
-    public void guardarArray();
-    
     public void calcularPagoTotal();
     
     public void calcularPagoPorCategoria(); 
