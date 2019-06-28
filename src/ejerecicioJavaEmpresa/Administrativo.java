@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package ejerecicioJavaEmpresa;
+/* Separa en una clase empleadosInternos para los admin y desarrolladores. por afuera queda el consultor. ambos tienen
+* beneficios, uno es el gim y el otro los libros. con un if vas a saber como guardar la info
+* Exitos Juan Pablo
+*/
 
 /**
  *
