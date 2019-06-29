@@ -9,12 +9,10 @@ package ejerecicioJavaEmpresa;
  *
  * @author gonzalo
  */
-public class Consultor extends Externo {
+public class Interno extends Persona {
     
-    public String toString() {
-        return super.toString();
-    }
-    
-  
+    private int horasTrabajadas;
+    private double valorHora;
+    private double antiguedad;
     
 }

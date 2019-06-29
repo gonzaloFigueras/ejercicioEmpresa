@@ -9,40 +9,13 @@ package ejerecicioJavaEmpresa;
  *
  * @author gonzalo
  */
-public class Desarrollador extends Persona {
+public class Desarrollador extends Interno {
     
     public String toString() {
         return super.toString();
     }
     
-    private int horasTrabajadas;
-    private double valorHora;
-    private double antiguedad;
     private double beneficio;
-
-    public int getHorasTrabajadas() {
-        return horasTrabajadas;
-    }
-
-    public void setHorasTrabajadas(int horasTrabajadas) {
-        this.horasTrabajadas = horasTrabajadas;
-    }
-
-    public double getValorHora() {
-        return valorHora;
-    }
-
-    public void setValorHora(double valorHora) {
-        this.valorHora = valorHora;
-    }
-
-    public double getAntiguedad() {
-        return antiguedad;
-    }
-
-    public void setAntiguedad(double antiguedad) {
-        this.antiguedad = antiguedad;
-    }
 
     public double getBeneficio() {
         return beneficio;
@@ -51,5 +24,7 @@ public class Desarrollador extends Persona {
     public void setBeneficio(double beneficio) {
         this.beneficio = beneficio;
     }
+
+
     
 }

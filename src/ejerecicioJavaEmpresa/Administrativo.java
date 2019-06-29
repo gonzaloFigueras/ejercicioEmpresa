@@ -13,40 +13,13 @@ package ejerecicioJavaEmpresa;
  *
  * @author gonzalo
  */
-public class Administrativo extends Persona {
+public class Administrativo extends Interno {
     
     public String toString() {
         return super.toString();
     }
-    
-    private int cantidadHoras;
-    private double valorHora;
-    private double antiguedad;
+
     private double gimnasio;
-
-    public int getCantidadHoras() {
-        return cantidadHoras;
-    }
-
-    public void setCantidadHoras(int cantidadHoras) {
-        this.cantidadHoras = cantidadHoras;
-    }
-
-    public double getValorHora() {
-        return valorHora;
-    }
-
-    public void setValorHora(double valorHora) {
-        this.valorHora = valorHora;
-    }
-
-    public double getAntiguedad() {
-        return antiguedad;
-    }
-
-    public void setAntiguedad(double antiguedad) {
-        this.antiguedad = antiguedad;
-    }
 
     public double getGimnasio() {
         return gimnasio;
@@ -55,5 +28,5 @@ public class Administrativo extends Persona {
     public void setGimnasio(double gimnasio) {
         this.gimnasio = gimnasio;
     }
-    
+
 }
